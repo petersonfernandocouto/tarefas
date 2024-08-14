@@ -1,0 +1,14 @@
+@use '../../SASS/Designer.scss' as *;
+
+.Conteudo {
+   @include Conteudo;
+    
+   h3{
+      overflow-wrap: break-word;
+        word-break: break-word; 
+        white-space: normal;
+        font-weight: 400;
+   }
+}
+
+//Todo Layout está em Designer.scss na pasta SASS

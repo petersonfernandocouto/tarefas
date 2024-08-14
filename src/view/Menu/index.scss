@@ -1,0 +1,24 @@
+.Menu{
+    background-color: rgb(12,112,242);
+    height: 74px;
+
+    button{
+        margin-top: 21px;
+        margin-left: 61px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: rgb(12,112,242);
+        border: none;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 25px;
+        padding: 08px 27px 08px 27px;
+        
+    }
+
+    button:hover{
+        background-color: white;
+        color: rgb(12,112,242);
+        cursor: pointer;
+    }
+}

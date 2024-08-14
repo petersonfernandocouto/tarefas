@@ -1,0 +1,89 @@
+.Tarefas {
+    text-align: center;
+
+    h1 {
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+
+    .Status {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 160px;   
+        margin-left: 17px;
+
+        h3{
+            color: white;
+        }
+    }
+
+    .Linha {
+        border: 3px solid white;
+        max-width: 600px;
+        width: 95%;
+        margin: 25px auto;
+    }
+
+    .Lista {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto; 
+        max-width: 700px; 
+        display: grid;
+        gap: 10px;
+      
+    }
+
+    .Lista li {
+        text-align: center;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 35% 34% 10%;
+        align-items: center;
+        gap: 08px; 
+        padding: 10px;
+    }
+
+    .Reformulacao {
+        display: flex;
+        gap: 10px;
+        margin-left: 70px;
+    }
+
+    button {
+        background-color: #2D2D2D;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    h4 {
+        overflow-wrap: break-word;
+        word-break: break-word; 
+        white-space: normal;
+        font-weight: 400;
+    }
+}
+
+
+.NewMission{
+    margin-top: 25px;
+    display: flex;
+    max-width: 700px;
+    padding: 20px;
+    margin: 0 auto; 
+    margin-bottom: 50px;
+    justify-content: space-between; 
+    align-items: center;
+
+    h4{
+        padding-left: 72px;
+        font-weight: 300;
+    }
+    
+    .NovaTarefa{
+        padding-right: 83px;
+        font-size: 25px;
+    }
+}
